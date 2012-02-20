@@ -32,7 +32,17 @@
     <response />
   </method>
   <method>
+    <!-- Added by FBY on 02-20-2012 -->
+    <call name='account_sent' method='get' url='/accounts/{ACCOUNT_ID}/sent/' />
+    <response />
+  </method>
+  <method>
     <call name='message_account' method='post' url='/accounts/{ACCOUNT_ID}/inbox/' />
+    <response />
+  </method>
+  <method>
+    <!-- Added by FBY on 02-16-2012 -->
+    <call name='send_account_message' method='post' url='/accounts/{ACCOUNT_ID}/send/' />
     <response />
   </method>
   <method>
